@@ -1,5 +1,3 @@
-var mongoose = require('mongoose');
-var Enquiry = mongoose.model('Enquiry');
 
 
 module.exports = function(app){
