@@ -1,0 +1,364 @@
+<html class="html-loaded">
+<head>
+    <!-- Title -->
+    <title>Kevin Osborne - Full-Stack Web Developer, Project Manager</title>
+    <!-- Meta -->
+    <meta name="description" content="Kevin Osborne is a Seattle based Full-Stack Web Developer and Project Manager">
+    <meta charset="utf-8">
+    <meta name="author" content="Kevin Osborne">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" href="css/animate.min.css"> 
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+
+    <!-- JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(function () {
+            count = 0;
+            wordsArray = ["can build Full-Stack Apps ]", "is bilingual in Chinese and English ]", "brings international work experience ]", "has a passion for coding and teamwork ]"];
+            setInterval(function () {
+                count++;
+                $("#word").fadeOut(700, function () {
+                $(this).text(wordsArray[count % wordsArray.length]).fadeIn(700);
+                });
+            }, 4000);
+            });
+    </script>
+</head>
+<!-- Loader -->
+<body onload="myFunction()" style="margin:0;">
+
+<div id="loader"></div>
+
+<div style="display:none;" id="top" class="animate-bottom page">
+    <!-- Home Section -->
+     <div class="fullscreen-table">
+    <div class = "fullscreen-row header">
+        <header id="header" class="main-header affix-top">
+            <div class="title-nav-wrapper">
+                <h1 class="site-title">
+                    <a href="#" id ="highest">
+                        Kevin S. Osborne
+                    </a>
+                </h1>
+                <!--MAIN NAVIGATION-->
+                <div class="desktopNav">
+                    <nav class="main-nav">
+                        <ul>
+                            <li><a href="#home" class="folder">Home</a></li>
+                            <li><a href="#about" class="folder">About</a></li>
+                            <li><a href="#skills" class="folder">Skills</a></li>
+                            <li><a href="#portfolio" class="folder">Portfolio</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                </header>
+                <div class="aside-block" style= "background-image: url('img/forest.jpg'); background-position: 50% -90px;">
+                        <div class="fadeindiv aside-container">
+                            <h1 class="hs-line-1 font-alt mb-80 mb-xs-30 mt-70 mt-sm-0">Kevin Osborne</h1>
+                            <div class="hs-line-6">
+                                <span>[ A Software Engineer who</span>
+                                <span id="word">is bilingual in Chinese and English ]</span>
+                            </div>
+                        </div>
+                </div>
+                <section id="about" class="section-block">
+                    <div class="container relative">
+                        <!-- <div class="selection-image">
+                            <img src="img/Kevin.jpg" alt="" width="180" height="180" class="profile-image">
+                        </div> -->
+                        <div class="selection-context">
+
+                                <h2 class="section-title font-alt align-left mb-70 mb-sm-40">About Me</h2>
+
+                            <div class="section-text mb-50 mb-sm-20">
+                                <div class="row">
+                                    <div class="col-md-4 col-sm-6 mb-xs-30">
+                                        <p>I grew up in the Pacific Northwest. In the spring of 2011, I turned a short-term trip to China into a career. I lead Chinese social media marketing campaigns and helped launched a sustainable agricultural startup over 5 years in Shanghai, China. In 2014, one of the many hats I wore was developing from scratch a CRM and ERP business operation system, thus began my passion for big data, design, and project management.</p>
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-xs-30">
+                                        <p>That passion for technology lead me back to the Seattle to accelerate my software skills in 2017. Although, I have a degree in Environmental Studies and Mandarin Chinese, I continually strive to learn as much as I can, work with teams, and grow as a full-stack developer and a bilingual project manager. 
+                                    </div>
+                                    <div class="col-md-4 col-sm-6 mb-xs-30">
+                                        <p>Over the past 6 months, I have worked on many types of projects - from web applications, responsive websites, company branding, data science, database architecture, and everything in between. My goal is to keep sleek designs and code clean and functional.</p>
+                                        <blockquote>
+                                            <p>"It’s not that I’m so smart, it’s just that I stay with problems longer."</p>
+                                            <footer>
+                                                "Albert Einstein"
+                                            </footer>
+                                        </blockquote>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                 
+            </section>
+            <!-- End Section -->
+            <!-- Picture Block -->
+            <div class="parallax" style="background-image: url('img/forestview.jpg');">
+                <div class="parallax-child">
+                    <h1 class="font-alt hs-line-2">Everything web and mobile</h1>
+                    <div class="container relative">
+                        <ul class="nav tpl-alt-tabs font-alt">
+                            <li><i class="devicon-python-plain icon-size"></i></li>
+                            <li><i class="devicon-csharp-plain icon-size"></i></li>
+                            <li><i class="devicon-javascript-plain icon-size"></i></li>
+                            <li><i class="devicon-java-plain icon-size"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- End Picture Block -->
+            <!-- Skill Set Section -->
+            <section class="page-section" id="services">
+                <div class="container relative">
+                    <h2 class="section-title font-alt mb-70 mb-sm-40">Some of my skills</h2>
+                <!-- Nav Tabs -->
+                    <ul class="nav tpl-alt-tabs font-alt pt-30 pt-sm-0 pb-30 pb-sm-0">
+                        <li>
+                            <div class="alt-tabs-icon">
+                                <img src="img/icons/clipboard.png" alt="" width="48">
+                            </div>
+                            PM
+                        </li>
+                        <li>
+                            <div class="alt-tabs-icon">
+                                <img src="img/icons/briefcase.png" alt="" width="48">
+                            </div>
+                            Development
+                        </li>
+                        <li>
+                            <div class="alt-tabs-icon">
+                                <img src="img/icons/display.png" alt="" width="48">
+                            </div>
+                            Web Design
+                        </li>
+                         <li>
+                            <div class="alt-tabs-icon">
+                                <img src="img/icons/cogs.png" alt="" width="48">
+                            </div>
+                            Testing
+                        </li>
+                        <li>
+                            <div class="alt-tabs-icon">
+                                <img src="img/icons/rocket.png" alt="" width="48">
+                            </div>
+                            Deployment
+                        </li>
+                    </ul>
+                </div>
+                <div class="newrow">
+                    <div class="hidden-sm hidden-xs col-sm-2">&nbsp</div>
+                    <div class="col-sm-4 col-md-3 list">
+                        <h3 class="animate">Front-end</h3>
+                        <ul class="firstlayerul">
+                            <li>HTML/CSS</li>
+                                <ul>
+                                    <li>HTML5</li>
+                                    <li>CSS3 & Responsive</li>
+                                </ul>
+                            <li>JavaScript</li>
+                                <ul>
+                                    <li>ES6</li>
+                                    <li>AngularJS</li>
+                                    <li>React</li>
+                                    <li>Web Sockets</li>
+                                    <li>JQuery</li>
+                                </ul>
+                        </ul>            
+                    </div>
+                    <div class="col-sm-4 col-md-3 list">
+                        <h3 class="animate">Back-end</h3>
+                        <ul class="firstlayerul">
+                            <li>Languages</li>
+                                <ul>
+                                    <li>Python</li>
+                                    <li>NodeJS</li>
+                                    <li>C#</li>
+                                    <li>Java</li>
+                                </ul>
+                            <li>Databases</li>
+                                <ul>
+                                    <li>MySQL</li>
+                                    <li>SQLite</li>
+                                    <li>MongoDB</li>
+                                    <li>Mongoose</li>
+                                </ul>
+                            <li>Tools & Frameworks</li>
+                                <ul>
+                                    <li>Flask</li>
+                                    <li>Django</li>                                  
+                                    <li>Express</li>
+                                    <li>.NET Core</li>
+                                    <li>Spring</li>
+                                </ul>
+                        </ul>        
+                    </div>
+                    <div class="col-sm-4 col-md-3 list">
+                        <h3 class="animate">Other</h3>
+                        <ul class="firstlayerul">
+                            <li>LINUX (Hosting)</li>
+                                <ul>
+                                    <li>Ubuntu</li>
+                                </ul>
+                            <li>HTTP</li>
+                                <ul>
+                                    <li>Apache2</li>
+                                    <li>Nginx</li>
+                                </ul>
+                            <li>Deployment</li>
+                                <ul>
+                                    <li>Amazon Web Services</li>
+                                    <li>Azure</li>                                  
+                                    <li>Git</li>
+                                </ul>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <!-- Start Divider -->
+            <hr class="mt-0 mb-0">
+            <!-- End Divider -->
+            <!-- Start Portfolio -->
+            <section class="page-section pb-0" id="portfolio">
+                <div class="relative">
+                    <h2 class="section-title font-alt mb-70 mb-sm-40">Portfolio</h2>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="section-text align-center mb-70 mb-xs-40">
+                                    <p>
+                                        "A collection of my past and current work. Some personal, some for clients, and some a collaboration with awesome people!"
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Works Filter -->
+                    <div class="main-nav tpl-alt-tabs font-alt works-filter align-center">
+                        <ul>
+                            <li>Python</li>
+                            <li>MEAN</li>
+                            <li>C#</li>
+                            <li>Java</li>
+                        </ul>
+                    </div>
+                    <!-- End Works Filter -->
+                    <!-- Start Works Grid -->
+                    <ul class="works-grid work-grid-3 work-grid-gut clearfix font-alt hover-white hide-titles" id="work-grid" style="position: relative; height: 2829.38px;">
+                        <!-- Start Work Item -->
+                        <li class="work-item" style="position: absolute; left: 0px; top: 0px;">
+                            <a href="www.snacks-ht.ml" target="_blank" class="work-ext-link">
+                                <div class="work-img">
+                                    <img src="/img/Snacks.png" alt="Snacking Dojo">
+                                </div>
+                                <div class="work-intro">
+                                    <h3 class="work-title">Snacking Dojo App</h3>
+                                    <div class="work-descr">
+                                        "A voting app for popular snacks developed through the MEAN Stack"
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- End Work Item -->
+                        <!-- Start Work Item -->
+                        <li class="work-item" style="position: absolute; left: 465px; top: 0px;">
+                            <a href="https://github.com/kevinsosborne/.NETCore/tree/master/wedding_planner" target="_blank" class="work-ext-link">
+                                <div class="work-img">
+                                    <img src="/img/wedding.png" alt="Wedding Planner">
+                                </div>
+                                 <div class="work-intro">
+                                    <h3 class="work-title">Wedding Planner</h3>
+                                    <div class="work-descr">
+                                        "A Wedding Planner to RSVP and create weddings using C#"
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <!-- Start Work Item -->
+                        <li class="work-item" style="position: absolute; left: 930px; top: 0px;">
+                            <a href="https://github.com/kevinsosborne/.NETCore/tree/master/wedding_planner" target="_blank" class="work-ext-link">
+                                <div class="work-img">
+                                    <img src="/img/wedding.png" alt="Wedding Planner">
+                                </div>
+                            </a>
+                        </li>
+                        <!-- End Work Item -->
+                    </ul>
+                </div>
+            </section>
+
+
+
+
+
+            <section id="works" class="section-block-wrapper">
+                <div class="section-block-wrapper">
+                    <h2>Featured Work</h2>
+                    <div class="project-snippet">
+                        <div class="works-preview">
+                            <div class="desktop-preview">
+                                <div class="preview-top">
+                                    <span class="circle-red"></span>
+                                    <span class="circle-yellow"></span>
+                                    <span class="circle-green"></span>
+                                    <p class="preview-url">
+                                    www.snacks-ht.ml
+                                    </p>
+                                </div>
+                                <div class="preview-img">
+                                    <a href="www.snacks-ht.ml"><img src="img/snacks.png" alt="snacks-project"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-snippet-info">
+                            <h3 class="project-title">Snacking Dojo</h3>
+                            <p>
+                                Snacking Dojo is a service developed in MEAN Stack for Coding Dojo to empower students to vote and comment for the snacks that they desire on a weekly basis. It also servers to make it easy for admin to purchase on those most popular items.
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+<script>
+var myVar;
+
+function myFunction() {
+    myVar = setTimeout(showPage, 3000);
+}
+
+function showPage() {
+  document.getElementById("loader").style.display = "none";
+  document.getElementById("top").style.display = "block";
+}
+
+$(document).ready(function() {
+  function setHeight() {
+    windowHeight = $(window).innerHeight();
+    $('.js-height-full').css('min-height', windowHeight);
+  };
+  setHeight();
+  
+  $(window).resize(function() {
+    setHeight();
+  });
+
+});
+
+$(function(){
+  $("#main-nav a").click(function(e){
+    e.preventDefault();
+    $('html,body').scrollTo(this.hash,this.hash);
+  });
+});
+
+</script>
+</body> 
+</html>
